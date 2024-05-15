@@ -407,6 +407,6 @@ const server = http.createServer((req, res) => {
   }
 });
 
-server.listen(PORT, () => {
+server.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
